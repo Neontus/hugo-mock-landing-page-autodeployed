@@ -8,4 +8,4 @@ menu:
 
 # Contact
 
-[Open an issue](https://github.com/neontus/hugo-mock-landing-page-autodeployed/issues/new) on GitHub.
+[Open an issue](https://github.com/anishxyz/cis3500-final-proj/issues/new) on GitHub.
