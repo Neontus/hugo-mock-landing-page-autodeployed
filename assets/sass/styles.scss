@@ -2,11 +2,10 @@
     --bd-purple: #4c0bce;
     --bd-violet: #712cf9;
     --bd-accent: #ffe484;
-    --bd-lucpink: #ff9900;
     --bd-violet-rgb: 112.520718,44.062154,249.437846;
     --bd-accent-rgb: 255,228,132;
     --bd-pink-rgb: 214,51,132;
-    --bd-lucpink #E06967
+    --squid-ink: 35, 47, 62;
 
     .bd-masthead {
         padding: 3rem 0;
@@ -20,8 +19,8 @@
         --bs-btn-border-color: var(--bd-lucpink);
         --bs-btn-border-radius: .5rem;
         --bs-btn-hover-color: var(--bs-white);
-        --bs-btn-hover-bg: #146eb4;
-        --bs-btn-hover-border-color: #146eb4;
+        --bs-btn-hover-bg: #05A0D1;
+        --bs-btn-hover-border-color: #05A0D1;
         --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
         --bs-btn-active-color: var(--bs-btn-hover-color);
         --bs-btn-active-bg: #5a23c8;
@@ -36,8 +35,7 @@
     --bd-violet-rgb: 112.520718,44.062154,249.437846;
     
     padding: .75rem 0;
-    background-color: transparent;
-    background-image: linear-gradient(to bottom, rgba(var(--bd-lucpink-rgb), 1), rgba(var(--bd-lucpink-rgb), 0.95));
+    background-color: rgba(var(--squid-ink));
     box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15),inset 0 -1px 0 rgba(0,0,0,0.15);
 }
 
@@ -57,6 +55,7 @@
 
 .navbar-brand {
     transition: transform 0.2s ease-in-out;
+    color: #05A0D1;
 
     &:hover {
         transform: rotate(-2deg) scale(1.1);
